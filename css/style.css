@@ -1,0 +1,205 @@
+body{
+	height: 100%;
+}
+
+.wrapper{
+	background-image: url(../images/background.png);
+	height: 100%;
+	text-align: center;
+}
+
+.Sertiz{
+	background-image: url(../images/img_bg1.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 900px;
+	position: relative;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+
+.sertiz-container{
+	text-align: left;
+	position: absolute;
+	left: 35%;
+	top: 80%;
+	transform: translate(-50%, -50%);
+	color:#ffffff;
+}
+
+.sertiz-name{
+	font-family: Montserrat;
+	font-size: 48px;
+}
+
+.sertiz-awsome{
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	margin-top: 16px;
+	margin-bottom: 28px;
+}
+
+
+.sertiz-slogan{
+	font-family: Montserrat;
+	font-size: 54px;
+	background-color:  rgba(0, 0, 0, 0.3);
+	padding-right: 60px;
+}
+
+.sertiz-slogan::before{
+	display: inline-block;
+	content: 'WE';
+	color: #f1ad1d;
+	padding: 31px 27px;
+	background-color: #ffffff;
+	margin-right: 30px;
+}
+
+.same-container{
+	background-color: rgba(0, 0, 0, 0);
+	display: flex;
+	height: 372px;
+	justify-content: space-around;
+	-ms-align-items: center;
+	align-items: center;
+	text-align: center;
+}
+
+.same-content{
+	width: 768px;
+}
+
+
+.content-first-name{
+	position: relative;
+	font-family: Montserrat;
+	color:  #333333;
+	font-size: 22px;
+	padding-bottom: 35px;
+}
+
+.content-second-name{
+	position: relative;
+	font-family: Lato;
+	color:  #4d4943;
+	font-size: 17px;
+}
+
+.yellow-block::after{
+	position: absolute;
+	top: 75px;
+	left: 48%;
+	display: inline-block;
+	content: ' ';
+	border: 1.5px solid #f1ad1d;
+	width: 60px;
+	height: 1px;
+}
+
+span{
+	color:#f1ad1d;
+}
+
+.changeIdeas-parallax{
+	background-image: url(../images/img_bg2.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left: 7%;
+}
+
+.changeIdeas{
+	display: flex;
+	height: 380px;
+	box-shadow: -152px 0px 0;
+	padding-right: 152px;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.changeIdeas .content-first-name{
+	color: #ffffff;
+}
+
+.secret{
+	height: 439px;
+}
+
+.weAreFututre-parallax{
+	background-image: url(../images/img_bg3.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.weAreFututre{
+	position: relative;
+	display: flex;
+	height: 475px;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.weAreFututre p{
+	color: #ffffff;
+	padding-bottom: 121px;
+}
+
+.future-images{
+	width: 840px;
+	height: 52px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.checkWhat-parallax{
+	background-image: url(../images/img_bg4.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.checkWhat{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	height: 485px;
+}
+.checkWhat p{
+	color: #ffffff;
+}
+
+.content-link-name{
+	position: relative;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	width: 573px;
+	padding-top: 123px;
+
+}
+
+
+.content-link-name:after{
+	position: absolute;
+	display: inline-block;
+	top: 216px;
+	left: 25%;
+	content: ' ';
+	width: 281px;
+	border: 1.5px solid #ffffff;
+}
+
+.trust, .goods{
+	height: 402px;
+}
